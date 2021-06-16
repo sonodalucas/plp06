@@ -1,3 +1,3 @@
-uniao :: [a] -> [a] -> [a]
+import Data.List
 
-uniao x y = concat [x, y]
+uniao x y = nub (concat [x, y])
